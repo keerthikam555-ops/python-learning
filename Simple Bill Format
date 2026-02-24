@@ -1,0 +1,8 @@
+print("-----------BILL---------")
+a=input("Enter Item")
+b=int(input("Enter price"))
+c=int(input("Enter quantity"))
+total=b*c
+
+print("Total:",total)
+print("-------------------------")
