@@ -1,0 +1,15 @@
+a=10
+b=5
+operation=input("add/sub/mut/div")
+if (operation=="add"):
+    print("sum:",a+b)
+elif(operation=="sub"):
+    print("sub:",a-b)
+elif(operation=="mut"):
+    print("mut:",a*b)           
+elif(operation=="div"):
+    print("div:",a/b)
+else:
+    print("invalid")
+
+    
