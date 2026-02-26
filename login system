@@ -1,0 +1,6 @@
+username=input("enter your username")
+password=input("enter your password")
+if password=="gokul":
+    print("login successfully!")
+else:
+    print("invalid login")
