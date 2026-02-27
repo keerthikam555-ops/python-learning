@@ -1,0 +1,5 @@
+num=int(input("Enter a number:"))
+print("divisible by 9:",num%9==0)
+print("divisible by 7:",num%7==0)
+print("divisible by 9:",num%9==0 and "divisible by 7:",num%7==0)
+
