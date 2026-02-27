@@ -1,0 +1,5 @@
+num=int(input("Enter a number:"))
+first=num//10
+last=num%10
+reverse=last*10+first
+print("reverse:",reverse)
