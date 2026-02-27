@@ -1,0 +1,11 @@
+amount=int(input("enter a amount:"))
+notes_500=amount//500
+remaining=amount%500
+notes_200=amount//200
+remaining=amount%200
+notes_10=amount//10
+remaining=amount%10
+print("500 notes:",notes_500)
+print("200 notes:",notes_200)
+print("10 notes:",notes_10)
+print("remaining:",remaining)
