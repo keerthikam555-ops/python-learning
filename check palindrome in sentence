@@ -1,0 +1,7 @@
+sentence=input("enter a sentence:")
+words=sentence.split()
+for word in words:
+    if word==word[::-1]:
+        print(word,":palindrome")
+    else:
+        print(word,":not palindrome")
