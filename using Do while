@@ -1,0 +1,11 @@
+while True:
+    print("1.say hello")
+    print("2.exit")
+    choice=input("enter your choice")
+    if choice=="1":
+        print("hello,keerthika")
+    elif choice=="2":
+        print("exiting")
+    else:
+        print("invalid choice")
+
