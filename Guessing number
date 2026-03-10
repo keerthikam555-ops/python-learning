@@ -1,0 +1,8 @@
+n=7
+while True:
+  number=int(input("enter a number"))
+  if number==n:
+   print("Correct! you guessed it")
+   break
+  else:
+    print("Wrong guess,try again")
