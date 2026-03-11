@@ -1,0 +1,10 @@
+Tuple () allow duplicate,data stored,cannot modify(remove,add)
+
+a=(1,2,3,4,5)
+print(a)
+
+a=(1,2,3,4,5)
+b=list(a)
+b.pop()
+print(b)
+
