@@ -1,0 +1,70 @@
+a={"name": "emc",
+   "age": "30" }
+print(a)
+
+a={"name": "emc",
+   "age": "30" }
+print(a["name"])
+
+a={
+   "name": "emc",
+   "age": 30,
+   "place":"kovilpatti",
+   "profession":"web development"
+    }
+print(a.keys())
+
+a={
+   "name": "emc",
+   "age": 30,
+   "place":"kovilpatti",
+   "profession":"web development"
+    }
+print(a.values())
+
+a={
+   "name": "emc",
+   "age": 30,
+   "place":"kovilpatti",
+   "profession":"web development"
+    }
+a["age"]=25
+print(a)
+
+a={
+   "name": "emc",
+   "age": 30,
+   "place":"kovilpatti",
+   "profession":"web development"
+    }
+a["colour"]="white"
+print(a)
+
+a={
+   "name": "emc",
+   "age": 30,
+   "place":"kovilpatti",
+   "profession":"web development"
+    }
+
+a={
+   "name": "emc",
+   "age": 30,
+   "place":"kovilpatti",
+   "profession":"web development"
+    }
+a.pop("age")
+print(a)
+
+a.update({"colour":"white"})
+print(a)
+
+a={
+   "name": "emc",
+   "age": 30,
+   "place":"kovilpatti",
+   "profession":"web development"
+    }
+a.clear()
+print(a)
+
