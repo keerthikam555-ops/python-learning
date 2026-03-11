@@ -1,0 +1,14 @@
+a={1,2,3,3,4,5}
+print(a)
+
+a={1,2,3,3,4,5}
+a.add(6)
+print(a)
+
+a={1,2,3,4,5}
+a.pop()
+print(a)
+
+a={1,2,3,4,5}
+a.remove(5)
+print(a)
