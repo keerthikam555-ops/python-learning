@@ -1,4 +1,4 @@
-LIST(allow duplicate,changeable,insert,remove,moderate)
+LIST [] (allow duplicate,changeable,insert,remove,modify)
 
 a=[1,2,3,4,5]
 print(a)
