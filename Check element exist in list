@@ -1,0 +1,6 @@
+numbers=[15,25,35,45,55]
+num=int(input("enter num to search"))
+if num in numbers:
+    print("The element is found in list")
+else:
+    print("no element founded")
